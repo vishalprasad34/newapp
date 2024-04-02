@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 99%;
+  height: 99%;
+  background-color: rgb(240, 240, 240);
+  border-radius: 2rem;
+  display: flex;
+}
+
+.page-title {
+  font-size: xx-large;
+}
+
+.sidebar {
+  width: 20%;
+  height: 99vh;
+}
+
+.profile {
+  display: flex;
+  padding: 2em;
+  gap: 1rem;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-image {
+  border-radius: 50%;
+}
+
+.username {
+  font-weight: 800;
+}
+
+.bio {
+  font-size: x-small;
+  color: grey;
+  padding-top: 0.2rem;
+}
+
+.profile-dropdown {
+  margin-left: 20px;
+  margin-top: 10px;
+  scale: 2;
+  cursor: pointer;
+}
+
+.nav-item {
+  color: grey;
+  margin: 2.5rem;
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  font-size: small;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+
+.active-icon {
+  margin-left: 10px;
+}
+
+.active-nav {
+  margin-left: 2rem;
+  padding: 0.6em;
+  background-color: #d6e1ed;
+  border-radius: 20px;
+  color: #1976d2;
+  cursor: auto;
+}
+
+.sub-menu{
+  margin-top: -1rem;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  margin-bottom: -1rem;
+  font-size: small;
+}
+ 
+.sub-menu a{
+  padding-left: 5rem;
+  text-decoration: none;
+  margin: 0.5em;
+}
+
+.sub-item {
+  color: grey;
+}
+
+.sub-item-active {
+  color: #1976d2;
+}
+
+.dropdown {
+  display: flex;
+}
+
+.vertical-bar {
+  position: absolute;
+  margin-left: 3em;
+  top: 345px;
+  border: 2px solid rgba(160, 160, 160, 0.600);
+  height: 1.5rem;
+  border-radius: 20px;
+}
+
+.vertical-bar-active {
+  position: absolute;
+  margin-left: 3em;
+  top: 365px;
+  border: 2px solid #1976d2;
+  height: 1.5rem;
+  border-radius: 20px;
+}
+
+.right-arrow {
+  margin-left: 2rem;
+}
+
+.nav-line {
+  margin-left: 2em;
+  margin-right: 2em;
+  border-top: solid rgba(128, 128, 128, 0.347) 0.5px;
+}
+
+.customer-page {
+  margin: 1rem;
+  background-color: white;
+  width: 80%;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.change-bg {
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+}
+
+.thead-left {
+  display: flex;
+  column-gap: 1em;
+}
+
+.tab {
+  display: flex;
+  column-gap: 0.5em;
+}
+
+.tab span {
+  font-weight: 600;
+  color: grey;
+}
+
+.tab p {
+  background-color: rgba(128, 128, 128, 0.226);
+  border-radius: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: small;
+  display: flex;
+  align-items: center;
+}
+
+.active-tab span {
+  color: black;
+}
+
+.active-tab p {
+  color: #1976d2;
+  background-color: #d6e1ed;
+}
+
+.thead-right {
+  padding: 0;
+  margin: 1em;
+  position: absolute;
+  right: 25px;
+  font-size: small;
+  color: grey;
+}
+
+.border-none {
+  border: none;
+}
+
+.name-col {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.pagination ul {
+  padding: 0;
+  margin: 1em;
+  position: absolute;
+  right: 25px;
+}
+
+.pagination ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+  margin-left: 1em;
+  font-weight: bold;
+}
+
+.pagination ul li a, .pagination ul li span {
+  color: gray;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #e6e6e6;
+  text-decoration: none;
+}
+
+.pagination ul li.active a, .pagination ul li.active span {
+  background: #d6e1ed;
+  color: #1976d2;
+  border: 1px solid transparent; 
+}
